@@ -1,0 +1,19 @@
+@import url(app.css);
+
+.notif-section {
+  height: 70vh;
+  margin-bottom: 100px; /* Adjust this value as needed */
+  justify-content: flex-start;
+}
+
+.disable-btn {
+  cursor: no-drop;
+}
+
+.disable-btn:hover {
+  background-color: rgba(0, 128, 0, 0.528) !important;
+}
+.notifications {
+  max-height: 400px; /* Adjust based on your layout */
+  overflow-y: auto; /* Adds a scrollbar if content overflows */
+}
